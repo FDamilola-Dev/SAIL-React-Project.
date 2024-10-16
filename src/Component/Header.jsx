@@ -16,8 +16,8 @@ const Header =() => {
             </div>
 
             <div className='RightNav'>
-                <button>Log In</button>
-                <button>Register</button>
+                <button id='logBtn'>Log In</button>
+                <button id='regBtn'>Register</button>
             </div>
         </header>
 

@@ -6,7 +6,7 @@ main{
 }
 
 #HeroImage{
-    width: 380px;
+    width:360px;
     margin-top: 70px;
     padding-left: 200px;
 
@@ -14,7 +14,6 @@ main{
 section h1{
     font-size: 32px;
     font-size: 32px;
-    border: 2px solid red;
     margin-top: -20px;
 }
 section p{
@@ -24,11 +23,15 @@ section p{
 section Button{
     background-color:black;
     color: white;
-    padding: 5px;
+    padding: 8px;
     border-radius: 7px;
     font-size: 10px;
     margin-bottom: -100px;
 }
 .LeftHero img{
     margin-bottom: -175px;
+}
+
+.learnBtn{
+    padding: 10px 20px;
 }

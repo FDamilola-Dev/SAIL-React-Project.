@@ -1,20 +1,41 @@
 Header {
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.LeftNav{
-    display: flex;
-    gap: 30px;
-    align-items: center;
+.LeftNav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+select {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.RightNav {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+
+#regBtn{
+    margin-right: 5px;
+    padding: 10px 15px;
+    border-radius:15px;
 
 }
-.select{
-    background-color: transparent;
+
+
+#logBtn{
     border: none;
-}
+    background: transparent;
 
-.RightNav{
-    margin-right: 10px;
 }
